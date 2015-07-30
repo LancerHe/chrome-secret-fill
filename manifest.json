@@ -1,0 +1,12 @@
+{ 
+    "name": "Secret Quick Login",
+    "version": "1.0",
+    "manifest_version" : 2, 
+    "description": "这是快速管理平台的工具，自行配置用户名密码，切换选择",
+    "icons":{"16":"16.png","48":"48.png","128":"128.png"},
+    "browser_action": {
+        "default_icon": "16.png",
+        "default_popup":"popup.html" 
+    }, 
+    "permissions": ["http://localhost:8070/phpMyAdmin/"] 
+}
